@@ -39,7 +39,7 @@ public class Task6 implements Task {
          * 3. С использованием отладчика проверить корректность работы программы.
          */
         System.out.println("Task 6 ... DONE");
-//        countries.forEach(System.out::println);
+        countries.forEach(System.out::println);
 
     }
 
@@ -55,7 +55,7 @@ public class Task6 implements Task {
      * @return коллекция объектов типа {@link Country}
      * @throws IOException в случае ошибки ввода-вывода.
      */
-    private Collection<Country> read(File file) throws IOException, ParseException {
+    private Collection<Country> read(File file) throws IOException {
 
         Collection<Country> collection = new ArrayList<>();
 

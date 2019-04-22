@@ -63,7 +63,7 @@ public class Country {
      * @throws ParseException в случае, если переданная строка
      * имеет неверный формат.
      */
-    public static Country valueOf(String text) throws ParseException {
+    public static Country valueOf(String text) {
         /*
          * TODO(Студент): Реализовать метод valueOf класса Country
          */

@@ -21,7 +21,7 @@ public class Task4 implements Task {
         Properties properties = read("resources/database.properties");
 
         System.out.println("Task 4 ... DONE");
-//        System.out.println(properties.getProperty("db.oracle.password"));
+        System.out.println(properties.getProperty("db.oracle.password"));
 
 
         /*

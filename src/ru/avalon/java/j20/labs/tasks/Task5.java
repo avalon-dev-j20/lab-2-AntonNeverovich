@@ -44,8 +44,8 @@ public class Task5 implements Task {
         String tools1 = title1.getString("menu.tools");
 
         System.out.println("Task 5 ... DONE");
-//        System.out.println(tools);
-//        System.out.println(tools1);
+        System.out.println(tools);
+        System.out.println(tools1);
 
     }
 

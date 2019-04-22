@@ -71,7 +71,7 @@ public class Task3 implements Task {
             }
         }
 
-        /* Другой вариант
+        /* Другой вариант для JRE 11
         String pathName = file.getPath();
         Path path = Path.of(pathName);
         Collection<String> collection = Files.readAllLines(path);

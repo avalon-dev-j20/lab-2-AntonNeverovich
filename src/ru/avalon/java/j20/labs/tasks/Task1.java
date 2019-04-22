@@ -19,6 +19,7 @@ public class Task1 implements Task {
     public void run() throws IOException {
         File input = new File("assets/countries.txt");
         File output = new File("countries_binary_mode_output.txt");
+
         String text = read(input);
         write(output, text);
 
